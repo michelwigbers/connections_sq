@@ -1,0 +1,24 @@
+{
+  "extensions": [
+    {
+      "application": "CSS customizations",
+      "payload": {
+        "include-files": [
+          "csscustomizations.js"
+        ],
+	"include-repo":{
+	  "name": "connections_sq"
+	}
+      },
+      "name": "CSS customizations",
+      "type": "com.ibm.customizer.ui",
+	  "path": "global"
+    }
+  ],
+  "name": "CSS customizations",
+  "description": "CSS customizations for sanquin",
+  "title": "CSS customizations for sanquin",
+  "services": [
+    "Customizer"
+  ]
+}
