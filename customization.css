@@ -1,6 +1,121 @@
-.joinmeeting,
-#sametime-tray {
-  display: none;
+.lotusui30 div.lotusBanner .lotusRightCorner {
+    overflow: hidden;
+    background: #6d2538;
+    padding-bottom: 1px;
+}
+
+.lotusui30 div.lotusBanner .lotusLogo .lotusAltText{
+   text-indent: -10000px;
+       width:150px
+}
+.lotusui30 .lotusBanner ul.lotusInlinelist li a.lotusBannerBtn {
+    color: #fff;
+    font-size: 1.090909em;
+    padding: 4px 17px;
+    border: 1px solid #651e30;
+    margin: 6px 12px 0;
+    background: #75263b;
+}
+.lotusui30 .lotusBanner ul.lotusInlinelist li a.lotusBannerBtn:active, .lotusui30 .lotusBanner ul.lotusInlinelist li a.lotusBannerBtn:focus, .lotusui30 .lotusBanner ul.lotusInlinelist li a.lotusBannerBtn:hover, .lotusui30 .lotusBanner ul.lotusInlinelist li.lotusHover a.lotusBannerBtn{
+    background: #75263b;
+    border: 1px solid #651e30;
+}
+.lotusui30 .lotusBanner ul.lotusInlinelist li a:active, .lotusui30 .lotusBanner ul.lotusInlinelist li a:focus, .lotusui30 .lotusBanner ul.lotusInlinelist li a:hover, .lotusui30 .lotusBanner ul.lotusInlinelist li.lotusHover a {
+    color: #fff;
+    background: #6d2538;
+}
+.lotusui30 .lotusMenu .lotusHeaderSelected, .lotusui30 .lotusMenu li.lotusSelected a, .lotusui30 .lotusMenu li.lotusSelected a:active, .lotusui30 .lotusMenu li.lotusSelected a:focus, .lotusui30 .lotusMenu li.lotusSelected a:hover, .lotusui30 .lotusMenu li.lotusSelected a:visited {
+    position: relative;
+    margin: 15px 0;
+    padding: 0 20px 0 6px;
+    background-color: transparent;
+    border: 0;
+    color: #000;
+    border-left: 4px solid #de7008;
+}
+
+.lotusui30 .lotusNavMenu tr a, .lotusui30 .lotusNavMenu tr a:visited {
+    color: #75263b;
+}
+.icBanner-popover-notificationReadAll {
+    color: #75263b;
+}
+.lotusui30 a, .lotusui30 a:visited {
+    color: #75263b;
+}
+.lotusui30 a.icBanner-footer-link {
+    color: #75263b;
+}
+.lotusui30 a:active, .lotusui30 a:focus, .lotusui30 a:hover{
+       color: #75263b;
+}
+.icBanner-notif-center .icBanner-popover-notificationReadAll:hover {
+    color: #5A202F;
+    text-decoration: underline;
+}
+.lotusui30 a.icBanner-footer-link:hover, .lotusui30 a.icBanner-footer-link:active {
+    color:#5A202F;
+}
+.lotusui30 .lotusNavMenu .lotusLayout td a:focus, .lotusui30 .lotusNavMenu .lotusLayout td a:hover, .lotusui30 .lotusNavMenu .lotusLayout th a:focus, .lotusui30 .lotusNavMenu .lotusLayout th a:hover {
+    border-bottom: 1px solid #de7008;
+    border-top: 1px solid #de7008;
+    padding-top: 10px;
+}
+
+.lotusui30 .lotusNavMenu tr a.lotusHover, .lotusui30 .lotusNavMenu tr a:active, .lotusui30 .lotusNavMenu tr a:focus, .lotusui30 .lotusNavMenu tr a:hover {
+    text-decoration: none;
+    color: #de7008;
+    padding-left: 12px;
+}
+
+.lotusui30 .lotusNavMenu.lconnSearchScope tr .dijitMenuItemLabel:hover {
+    color: #75263b;
+    border-top: solid 1px #75263b !important;
+    border-bottom: solid 1px #75263b !important;
+}
+.lotusui30 .lotusNavMenu tr, .lotusui30 .lotusNavMenu tr .dijitMenuItemLabel {
+    color: #75263b;
+}
+.lconnSprite-iconWikisBlue16 {
+    width: 16px;
+    height: 16px;
+    background-position: 0 -887px;
+}
+.lconnSprite-iconForumsBlue16 {
+    width: 16px;
+    height: 16px;
+    background-position: 0 -793px;
+}
+.lconnSprite-iconFilesBlue16 {
+    background-position: 0 -769px;
+}
+.lconnSprite-iconBookmarksBlue16 {
+    width: 16px;
+    height: 16px;
+    background-position: 0 -744px;
+}
+.lconnSprite-iconBlogsBlue16 {
+    width: 16px;
+    height: 16px;
+    background-position: 0px -719px;
+}
+.lconnSprite-iconActivitiesBlue16 {
+    width: 16px;
+    height: 16px;
+    background-position: 0 -694px;
+}
+.lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .streamHeaderWrapper .lotusPaging {
+    background: #de7008;
+   
+}
+.lotusStream #activityStreamMain.lotusWidgetBody .stream-finLeft, .lotusStream #activityStreamMain.lotusWidgetBody .stream-finRight{
+    background:#de7008;
+}
+.otherActivityStream14-asKnockedfin14 {
+    width: 15px;
+    height: 8px;
+    background-position: 0 -64px;
+    background-color: #de7008 !important;
 }
 
 
