@@ -1,3 +1,4 @@
+
 .lotusui30 .lotusNavMenu tr a, .lotusui30 .lotusNavMenu tr a:visited {
     color: #75263b;
 }
@@ -19,4 +20,9 @@
 }
 .lotusui30 a.icBanner-footer-link:hover, .lotusui30 a.icBanner-footer-link:active {
     color:#5A202F;
+}
+
+.search-history-view-ui .lotusui30 .icSearchPaneButton {
+    background-color:#74263a;
+    outline: 1px solid #74263a;
 }
