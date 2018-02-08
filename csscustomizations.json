@@ -4,7 +4,7 @@
       "application": "CSS customizations",
       "payload": {
         "include-files": [
-          "csscustomizations.js "
+          "csscustomizations.js"
         ],
 	"include-repo":{
 	  "name": "connections_sq"
