@@ -1,6 +1,6 @@
- .lotusui30dojo a, .lotusui30dojo a:visited {
-        color: red;
-    }
-    .lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .streamHeaderWrapper .lotusPaging {
-    	background: green;
-    } 
+.lotusui30dojo a, .lotusui30dojo a:visited {
+    color: red;
+}
+.lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .streamHeaderWrapper .lotusPaging {
+  background: green;
+} 
