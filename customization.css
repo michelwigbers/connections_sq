@@ -1,28 +1,177 @@
+/* Common */
+.ics-scbanner{
+    background-color: white;
+    transition: none;
+}
+.lotusliveui .lotusTitleBar, #nav, .scloud3 .lotusTitleBar2, .scloud3 .lotusTitleBar2, .scloud3 .lotusTitleBar, .scloud3 .lotusTitleBar2.lotusTitleBar2Tabs {
+    background: white repeat-x 0 0 !important;
+   }
+/* left side navigation */
+.lotusMenu li a.lotusSelected, .lotusMenu li.lotusSelected a, .lotusMenu li.lotusSelected a:visited, .lotusMenu li.lotusSelected a:active, .lotusMenu h3.lotusSelected, .scloud3 .lotusMenu li.lotusSelected a, .scloud3 .lotusMenu li.lotusSelected a:hover, .scloud3 .lotusMenu li.lotusSelected a:focus, .scloud3 .lotusMenu li.lotusSelected a:active, .scloud3 .lotusMenu .lotusHeaderSelected, .lotusliveui .lotusMenu .lotusTree .dijitTreeRow.lotusSelected, .scloud3 .lotusMenu .lotusTree .dijitTreeRow.lotusSelected, .content_wrap .side_bar .current {
+    background: #75263b;
+       text-decoration:none;
+}
 
-.lotusui30 .lotusNavMenu tr a, .lotusui30 .lotusNavMenu tr a:visited {
+.lotusui30 .lotusMenu .lotusUnreadBadge {
+    background-color: #df6f07;
+}
+
+ /* search menu  */  
+.search-history-view-ui .lotusui30 .icSearchPaneButton {
+    background-color:#75263b;
+    outline: 1px solid #75263b;
+}
+
+.search-history-view-ui .lotusui30 .icSearchPaneButton.icSearchBarMode .icSearchBar .dijitTextBox, .search-history-view-ui .lotusui30 .icSearchPane .icTopSection .icSearchBar .dijitTextBox {
+   border-bottom-color: #75263b;
+}
+
+.search-history-view-ui .lotusui30 .icSearchPane .pfEntry:hover .lconn_title {
+    color: #df6f07;
+}
+
+.search-history-view-ui .lotusui30 .icSearchPane .pfEntry:hover  {
     color: #75263b;
 }
-.icBanner-popover-notificationReadAll {
+
+.lconn_title, .search-history-view-ui .lotusui30 .icSearchPane .pfEntry:hover .lconn_gray {
     color: #75263b;
 }
+
+.search-history-view-ui .lotusui30 .icSearchPane .pfEntry .lconn_title {
+    color:#222;
+}
+
+.search-history-view-ui .lotusui30 .icSearchPaneButton.icSearchBarMode .icSearchBar .icSearchIcon svg, .search-history-view-ui .lotusui30 .icSearchPane .icTopSection .icSearchBar .icSearchIcon svg {
+    fill: #75263b;
+}
+
+.search-history-view-ui .lotusui30 .icSearchPane .pfEntry:hover, .search-history-view-ui .lotusui30 .icSearchPane .pfEntry.spSelected {
+    border-color: #75263b;
+}
+
+.scloud3 .lotusMenu li a:hover {
+    background-color: #f4f5f6;
+}
+
+/* navigation :: hover */
+.ics-scbanner > a:hover::after, .ics-scbanner > button:hover::after, .ics-scbanner > .navmenu:hover::after {
+    border-bottom: 0.125rem solid #df6f07;
+}
+
+.stproxy_navbarMenuNonVerse ul.navsimplelist .stproxy_navbarMenuNonVerse_buttonContainer button {
+    background: #75263b;
+    border: 1px solid #75263b;
+    box-shadow: 0 0 0 3px #75263b;
+}
+
+.lotusui30 a:hover, .lotusui30 a:focus, .lotusui30 a:active {
+    color: #db8193;
+}
+
 .lotusui30 a, .lotusui30 a:visited {
     color: #75263b;
 }
-.lotusui30 a.icBanner-footer-link {
-    color: #75263b;
-}
-.lotusui30 a:active, .lotusui30 a:focus, .lotusui30 a:hover{
-       color: #75263b;
-}
-.icBanner-notif-center .icBanner-popover-notificationReadAll:hover {
-    color: #5A202F;
-    text-decoration: underline;
-}
-.lotusui30 a.icBanner-footer-link:hover, .lotusui30 a.icBanner-footer-link:active {
-    color:#5A202F;
+
+.icBanner-badge {
+    background: none repeat scroll 0 0 #df6f07;
 }
 
-.search-history-view-ui .lotusui30 .icSearchPaneButton {
-    background-color:#74263a;
-    outline: 1px solid #74263a;
+.icBanner-notif-center .icBanner-popover-notificationReadAll {
+    color: #75263b;
 }
+
+.icBanner-notif-center .icBanner-popover-notificationReadAll:hover {
+    color: #75263b;
+}
+.lotusui30 a:hover, .lotusui30 a:focus, .lotusui30 a:active {
+    color: #75263b;
+}
+
+.icNote-message .bluedot {
+    background-color: #db8193;
+    border: 1px solid #db8193;
+}
+
+
+/* Newsfeed */
+.lotusui30 .lotusBoard .lotusStream .lotusPostHover, .lotusui30 .lotusBoard .lotusStream .lotusPostSelected {
+    background-color:#f4f5f6;
+}
+
+:focus-within {outline:none;}
+/* Newsfeed > activity stream > share something */
+.lotusui30 .lotusBoard .lotusStreamUpdate .lconnRTE .cke.cke_focus {
+    border:1px solid #a75365 !important;
+    box-shadow: 0 0 3px rgba(167, 83, 101, 0.9);
+   }
+   
+.lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusPostHover .lotusInlinelist a {
+    color: #75263b;
+    /* text-decoration: underline; */
+}
+
+.lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusInlinelist.lotusActions .vcard a, .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusCommentList .lotusInlinelist .lotusLike a {
+    color: #75263b;
+}
+.lotusui30 .streamMore:hover, .lotusui30 .streamMore a:hover, .lotusui30 .streamMore:focus, .lotusui30 .streamMore a:focus, .lotusui30 .streamMore:active, .lotusui30 .streamMore a:active {
+    color: #75263b;
+    background: #e8e8e8;
+}
+
+.lotusui30 a:hover {
+    color: #df6f07;
+    }
+    .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusPostHover .lotusInlinelist a:hover {
+    color: #df6f07;
+    }
+    
+    .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusInlinelist.lotusActions .vcard a:hover {
+    color: #df6f07;
+    }
+    
+    .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusInlinelist.lotusActions .vcard a:focus, .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusInlinelist.lotusActions .vcard a:hover, .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusInlinelist.lotusActions .vcard a:active, .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusInlinelist.lotusActions .lotusLike a:focus, .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusInlinelist.lotusActions .lotusLike a:hover, .lotusui30 .lotusStream .lotusWidgetBody#activityStreamMain .lotusInlinelist.lotusActions .lotusLike a:active {
+    color: #df6f07;
+    }
+    
+    .lotusui30 .lotusFlyout .lotusFlyoutHeader .vcard > a {
+    color: #75263b; }
+    
+    .lotusui30 .lotusFlyout .lotusFlyoutHeader .vcard > a:hover {
+    color: #df6f07; }
+
+
+
+
+.lotusui30_body .lotusMain {
+    background-color: white;
+}
+   
+/* Home */
+
+/* Profiles */
+
+/* Communities */
+
+/* Files */
+
+/* Meetings */
+.bannerBg {
+    background: #75263b;
+}
+
+#mainSection .joinBtn {
+    background: #75263b;
+    border: 4px double #75263b;
+}
+
+#mainSection .joinBtn:hover, #mainSection .joinBtn:focus {
+    background: #75263b;
+    border: 4px double #ffffff;
+}
+/* Activities */
+
+
+/* Forums */
+
+
